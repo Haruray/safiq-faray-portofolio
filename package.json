@@ -7,7 +7,7 @@
   "scripts": {
     "start": "parcel",
     "build": "parcel build",
-    "predeploy": "rm -rf dist && parcel build ./*.html --public-url 'https://github.com/Haruray/safiq-faray-portfolio.git/'",
+    "predeploy": "parcel build --public-url 'https://github.com/Haruray/safiq-faray-portfolio.git/'",
     "deploy": "gh-pages -d dist"
   },
   "repository": {
