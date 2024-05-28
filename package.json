@@ -7,7 +7,7 @@
   "scripts": {
     "start": "parcel ./*.html",
     "build": "parcel build ./*.html",
-    "predeploy": "rm -rf dist && parcel build ./*.html --public-url './'",
+    "predeploy": "rm -rf dist && parcel build ./*.html --public-url ./",
     "deploy": "gh-pages -d dist"
   },
   "repository": {
